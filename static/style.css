@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f9fc;
+}
+
+form input {
+    padding: 8px;
+    width: 200px;
+}
+
+button {
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+ul li.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.badge {
+  font-size: 0.9rem;
+}
+.text-muted {
+  font-size: 0.8rem;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.no-tasks-message {
+    animation: fadeIn 0.8s ease-out;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.no-tasks-message a.btn {
+    animation: fadeIn 0.8s ease-out; 
+}
