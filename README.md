@@ -1,4 +1,4 @@
-# Flask To-Do App ✅
+# Flask To-Do App 
 
 A beginner-friendly to-do web app built with Flask, SQLite, and Bootstrap. Users can register, log in, add/edit/delete tasks, filter by priority and status, and more.
 
